@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web RPG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Dragon's Lair</h1>
+        <div id="stats">
+            <p>HP: <span id="hp">100</span> | MP: <span id="mp">50</span></p>
+        </div>
+        <p id="message">You stand before the cave entrance...</p>
+        <div class="controls">
+            <button onclick="attack()">Sword Attack</button>
+            <button onclick="heal()">Mega Heal (30MP)</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
